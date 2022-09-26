@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h> /*Fonte de pesquisa, inclusão de biblioteca math.h: http://linguagemc.com.br/a-biblioteca-math-h/*/
 
+/*Username GitHub: willfrw*/
+
 int main(void)
 {
   printf("Autor: William Freire Wang \n");
@@ -108,6 +110,7 @@ int calculadora(void) {
     return 0;
 }
 
+/*Função que cria desenho de calculadora*/
 int descalc(void) {
   printf("\n|-----------------|\n       1 + 1 = 2\n|_________________|\n| [7] [8] [9] [/] |\n| [4] [5] [6] [x] | \n| [1] [2] [3] [-] |\n| [0] [.] [+] [=] |\n| ________________|\n");
 }
